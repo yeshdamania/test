@@ -1,0 +1,54 @@
+body  
+		ul 
+			{ 
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color:red;
+			}
+
+			li 
+			{ 
+				float: left;
+			}
+
+			li a 
+			{
+				display: block;
+				color:white;
+				text-align:center;
+				padding:16px;
+				text-decoration: none;
+			} 	
+
+			li a:hover 
+			{
+				background-color:yellow;
+			}
+			
+			img 
+			{
+				float:left;
+				width:160px;
+				height:140px;
+			}
+			div.column_content 
+			{
+				margin-left:200px;
+			}
+
+			h2 {
+				color:#3484DF;
+			}
+
+			p {
+				font-style:italic;
+				text-align:justify;
+				width:750px;
+				
+			}
+			div.column 
+			{
+				height:150px;
+			}
